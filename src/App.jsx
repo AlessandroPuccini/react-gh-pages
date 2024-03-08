@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// import AddUser from './AddUser';
-// import UsersList from './UsersList';
+import AddUser from './AddUser';
+import UsersList from './UsersList';
 
 function App() {
 
@@ -31,10 +31,10 @@ const handleModifyUser = (idUser, newName) => {
   return (
     <main>
       <h1>Elenco Utenti</h1>
-      {/* <AddUser onAddUser={handleAddUser}/> 
+      <AddUser onAddUser={handleAddUser}/> 
       <UsersList
       users={users} 
-      onDeleteUser={handleDeleteUser} /> */}
+      onDeleteUser={handleDeleteUser} />
     </main>
   )
 }
